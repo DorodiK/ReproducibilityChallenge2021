@@ -23,9 +23,14 @@ The code for AdaIN is also reused from the [Torch implementation with python](ht
 
 ### Dataset 
 
+We used the pretrained weights of the AdaConv framework provided in the open-source repo. The weights were obtained by the author of the 
+AdaConv code using the following datasets. 
+
 Content - Click [here](https://cocodataset.org/#home) to go to official COCO dataset website. 
 
 Style - Click [here](https://www.kaggle.com/antoinegruson/-wikiart-all-images-120k-link) to go to official Wiki-Art dataset on Kaggle.
+
+Pretrained weights - Click [here](https://drive.google.com/file/d/17h-Hd08n-f_5D8cDV08dpB_-W1cs5jbt/view?usp=sharing) to download pretrained-weights to run experiments 
 
 ### Method
 

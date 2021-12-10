@@ -36,7 +36,7 @@ By implementing the codes linked above we investigated the results and claims of
 
 ### Results 
 
-### 1. AdaConv Framework Visuals
+#### 1. AdaConv Framework Visuals
 
 #### 2. AdaConv and AdaIN 
 The following results were obtained for a qualitative analysis between the two frameworks, using different style image from 

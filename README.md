@@ -35,7 +35,10 @@ By implementing the codes linked above we investigated the results and claims of
 3. Implemented AdaConv to raw content image taken on our phones. 
 
 ### Results 
-#### AdaConv and AdaIN 
+
+### 1. AdaConv Framework Visuals
+
+#### 2. AdaConv and AdaIN 
 The following results were obtained for a qualitative analysis between the two frameworks, using different style image from 
 test_images. 
 
@@ -43,7 +46,7 @@ test_images.
 
 Fig: AdaIN output (left) and AdaConv output (right)
 
-#### AdaConv 
+#### 3. AdaConv 
 The following results were obtained using images in the test_images folder. The content image is that of an engineering building at the University
 of Waterloo clicked on our phone. Different style images were then applied to this content image using AdaConv method to synthesize the 
 following output images. 

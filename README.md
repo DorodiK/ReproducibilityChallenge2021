@@ -53,6 +53,18 @@ test_images.
 
 Fig: AdaIN output (left) and AdaConv output (right)
 
+The following outputs were formed by using different orientation of style image.
+
+![AdaIN output](https://user-images.githubusercontent.com/38030229/145614967-d0a0c8a1-9333-4bfe-a22b-2f8dd595d486.gif "AdaIN output") 
+
+Fig: AdaIN output as gif
+
+![AdaConv output](https://user-images.githubusercontent.com/38030229/145614802-15588244-4be2-44c7-8d0d-9f921ecad4f9.gif "AdaConv output ")
+
+Fig: AdaConv output as gif
+
+
+
 #### 3. AdaConv 
 The following results were obtained using images in the test_images folder. The content image is that of an engineering building at the University
 of Waterloo clicked on our phone. Different style images were then applied to this content image using AdaConv method to synthesize the 

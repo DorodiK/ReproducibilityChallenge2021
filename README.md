@@ -12,8 +12,7 @@ Convolutions (AdaConv) as an extension of Adaptive Instance Normalization (AdaIN
 style transfer between images as an artistic application of CNNs, where given a content and style image the goal is to
 synthesize an output image which has the high level structure of the content image and the artistic style as the style
 image. As such the outcome of the proposed Adaptive Convolutions framework allows for the simultaneous transfer of
-both statistical and structural styles.![145637729-f40826c3-7a7c-4352-923e-b24342b4be40](https://user-images.githubusercontent.com/46634299/145637927-c0a3e5f8-edd8-4a82-b849-cd33e94ff448.png)
-
+both statistical and structural styles.![145637729-f40826c3-7a7c-4352-923e-b24342b4be40]
 
 ### Code 
 

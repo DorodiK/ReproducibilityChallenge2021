@@ -37,9 +37,9 @@ Pretrained weights - Click [here](https://drive.google.com/file/d/17h-Hd08n-f_5D
 ### Method
 
 By implementing the codes linked above we investigated the results and claims of the paper [1] in three ways: 
-1. Outputted visuals of the content and style latent features across the different layers of the encoder-decoder architecture of AdaConv 
-2. Compared AdaIN and AdaConv results on images and styles in test_images using different techniques (e.g. change in orientation of style image). 
-3. Implemented AdaConv to raw content image taken on our phones. 
+1. Outputted visuals of the style latent features across the different layers of the encoder-decoder architecture of AdaConv along with the convolution results
+3. Compared AdaIN and AdaConv results on images and styles in test_images using different techniques (e.g. change in orientation of style image). 
+4. Implemented AdaConv to raw content image taken on our phones. 
 
 ### Results 
 
@@ -48,8 +48,7 @@ By implementing the codes linked above we investigated the results and claims of
 
 ![K1](https://user-images.githubusercontent.com/38030229/145616390-4e1e3f05-d896-4ddf-8ec7-78b2b81b585b.png "K1") ![K2](https://user-images.githubusercontent.com/38030229/145616396-3f42f37c-ee52-4c96-80c4-9f19d5f48362.png "K2") ![K3](https://user-images.githubusercontent.com/38030229/145616404-9b924538-c9c7-4adf-8341-3470a1e8f35f.png "K3") ![K4](https://user-images.githubusercontent.com/38030229/145616408-d72c02b6-a482-4f8d-815c-7a0619db5929.png "K4") ![Final](https://user-images.githubusercontent.com/38030229/145616415-d9a945d6-d62b-40c3-bc1f-7319563d2355.png "Final")
 
-Fig: Visuals from the AdaConv framework when predicted kernels are convolved (e.g. four kernels) with latent features of the content image at different levels of the decoder that 
-results in the final output image. 
+Fig: Visuals from the AdaConv framework when predicted kernels are convolved (e.g. four kernels) with latent features of the content image at different levels of the decoder that results in the final output image. 
 
 
 #### 2. AdaConv and AdaIN 

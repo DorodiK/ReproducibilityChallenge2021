@@ -16,10 +16,10 @@ both statistical and structural styles.
 
 ### Code 
 
-The code for the [AdaConv module ](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/adaconv.py/) and the [Kernel predictors](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/kernel_predictor.py/) was reused from an unofficial imeplementation.
+The code for the [AdaConv module ](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/adaconv.py/) and the [Kernel predictors](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/kernel_predictor.py/) was reused from an unofficial imeplementation by [REIbars](https://github.com/RElbers/ada-conv-pytorch).
 
 
-The code for AdaIN is also reused from the [Torch implementation with python](https://github.com/naoto0804/pytorch-AdaIN) of the original [Torch implementation with lua](https://github.com/xunhuang1995/AdaIN-style) by the authors. 
+The code for AdaIN is also reused from the [Torch implementation with python](https://github.com/naoto0804/pytorch-AdaIN) by [naoto0804](https://github.com/naoto0804/pytorch-AdaIN) of the original [Torch implementation with lua](https://github.com/xunhuang1995/AdaIN-style) by the authors. 
 
 Listed code repositories are MIT-licensed as open-source for academic research. 
 

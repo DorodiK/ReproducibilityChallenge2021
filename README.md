@@ -16,10 +16,12 @@ both statistical and structural styles.
 
 ### Code 
 
-The code for the [AdaConv module ](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/adaconv.py/) and the [Kernel predictors](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/kernel_predictor.py/) was reused from the unofficial imeplementation by REIbars, 
-which is MIT-licensed as open-source and for academic research. 
+The code for the [AdaConv module ](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/adaconv.py/) and the [Kernel predictors](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/kernel_predictor.py/) was reused from an unofficial imeplementation.
+
 
 The code for AdaIN is also reused from the [Torch implementation with python](https://github.com/naoto0804/pytorch-AdaIN) of the original [Torch implementation with lua](https://github.com/xunhuang1995/AdaIN-style) by the authors. 
+
+Listed code repositories are MIT-licensed as open-source for academic research. 
 
 ### Dataset 
 
@@ -74,6 +76,9 @@ We analysed the images qualitatively, even though it can be subjective, one can 
 simultaneously captured the statistical and structural features of the style image while preserving high level features of the content image, 
 this corroborates one of the authors' claims in the paper that AdaConv improves the transfer of both statistical and structural style features in real time compared to AdaIN.
 
+### Acknowledgement 
+
+We would like to thank the authors of the codes for making their codes open-source for academic research. 
 
 ### Reference 
 1. Prashanth Chandran, Gaspard Zoss, Paulo Gotardo, Markus Gross, and Derek Bradley. Adaptive convolutions

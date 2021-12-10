@@ -12,7 +12,8 @@ Convolutions (AdaConv) as an extension of Adaptive Instance Normalization (AdaIN
 style transfer between images as an artistic application of CNNs, where given a content and style image the goal is to
 synthesize an output image which has the high level structure of the content image and the artistic style as the style
 image. As such the outcome of the proposed Adaptive Convolutions framework allows for the simultaneous transfer of
-both statistical and structural styles.
+both statistical and structural styles.![145637729-f40826c3-7a7c-4352-923e-b24342b4be40](https://user-images.githubusercontent.com/46634299/145637927-c0a3e5f8-edd8-4a82-b849-cd33e94ff448.png)
+
 
 ### Code 
 
@@ -44,7 +45,13 @@ By implementing the codes linked above we investigated the results and claims of
 ### Results 
 
 #### 1. AdaConv Framework Visuals
+![style_01](https://user-images.githubusercontent.com/46634299/145637685-427deeeb-d769-48e9-a574-cb01767cc8a4.jpg)
+A sample style image
+![01_1](https://user-images.githubusercontent.com/46634299/145637729-f40826c3-7a7c-4352-923e-b24342b4be40.png)
+The output of the VGG-19 network for the sample style image
 
+![style_01](https://user-images.githubusercontent.com/46634299/145637812-6eb8be33-2d8c-4334-881b-ab6bbf675177.png)
+The output of style encoder for the mentioned image
 
 ![K1](https://user-images.githubusercontent.com/38030229/145616390-4e1e3f05-d896-4ddf-8ec7-78b2b81b585b.png "K1") ![K2](https://user-images.githubusercontent.com/38030229/145616396-3f42f37c-ee52-4c96-80c4-9f19d5f48362.png "K2") ![K3](https://user-images.githubusercontent.com/38030229/145616404-9b924538-c9c7-4adf-8341-3470a1e8f35f.png "K3") ![K4](https://user-images.githubusercontent.com/38030229/145616408-d72c02b6-a482-4f8d-815c-7a0619db5929.png "K4") ![Final](https://user-images.githubusercontent.com/38030229/145616415-d9a945d6-d62b-40c3-bc1f-7319563d2355.png "Final")
 

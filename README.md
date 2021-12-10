@@ -16,16 +16,23 @@ both statistical and structural styles.
 
 ### Code 
 
-The code for the AdaConv module and the Kernel predictors was reused from the unofficial imeplementation by REIbars, 
+The code for the [AdaConv module ](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/adaconv.py/) and the [Kernel predictors](https://github.com/RElbers/ada-conv-pytorch/blob/master/lib/adaconv/kernel_predictor.py/)was reused from the unofficial imeplementation by REIbars, 
 which is MIT-licensed as open-source and for academic research. 
 
-The code for AdaIN is also reused from the python implementation of the official AdaIN repository. 
+The code for AdaIN is also reused from the [Torch implementation with python](https://github.com/naoto0804/pytorch-AdaIN) of the [original implementation](https://github.com/xunhuang1995/AdaIN-style) in Torch and lua by the authors. 
 
 ### Dataset 
 
 Content - Click [here](https://cocodataset.org/#home) to go to official COCO dataset website. 
 
 Style - Click [here](https://www.kaggle.com/antoinegruson/-wikiart-all-images-120k-link) to go to official Wiki-Art dataset on Kaggle.
+
+### Method
+
+By implementing the codes linked above we investigated the results and claims of the paper [1] in three ways: 
+1. Outputted visuals of the content and style latent features across the different layers of the encoder-decoder architecture of AdaConv 
+2. Compared AdaIN and AdaConv results on images and styles in test_images using different techniques (e.g. change in orientation of style image). 
+3. Implemented AdaConv to raw content image taken on our phones. 
 
 ### Results 
 #### AdaConv and AdaIN 

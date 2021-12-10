@@ -49,13 +49,16 @@ of Waterloo clicked on our phone. Different style images were then applied to th
 following output images. 
 
 ![content](https://user-images.githubusercontent.com/38030229/145607240-37b904ca-d39c-4356-beb0-c075c2ecce7c.jpg)
-Fig: Content Image 
+
+Fig: University of Waterloo as Content image
 
 ![alt-text-1](https://user-images.githubusercontent.com/38030229/145606791-d628e160-c6ad-4de2-baa9-7414c2e4df2a.jpg "title-1") ![alt-text-2](https://user-images.githubusercontent.com/38030229/145607598-e00dd4e2-baba-4ad0-b81e-4302d992d949.jpg "title-2") 
-Fig: Style Images
+
+Fig: Style images
 
 ![alt-text-1](https://user-images.githubusercontent.com/38030229/145606927-da518a2a-8b53-49e2-a1f5-9b26d471bd40.png "title-1") ![alt-text-2](https://user-images.githubusercontent.com/38030229/145607670-019de6bd-7dca-4a58-bc92-a39aa6ecad8d.png "title-2") 
-Fig: Output Images
+
+Fig: Output images 
 
 ### Discussion 
 
